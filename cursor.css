@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+div {
+  padding: 15px;
+  margin: 10px 0;
+  border: 2px solid #333;
+  width: 250px;
+  background-color: white;
+}
+
+/* Cursor styles */
+.default {
+  cursor: default;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text {
+  cursor: text;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+
+.custom {
+  /* Replace with your own image path */
+  cursor: url('cursor-image.png'), auto;
+}
